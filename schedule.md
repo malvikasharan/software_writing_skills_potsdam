@@ -1,1 +1,2 @@
+time|Lesson|Instructors/Speakers
 --- | --- | ---
