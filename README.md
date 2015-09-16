@@ -1,6 +1,4 @@
-# software_writing_skills_potsdam
-
-##Software Writing Skills for Your Research - Workshop for Novices
+#Software Writing Skills for Your Research - Workshop for Novices
 
 Website: http://www.gfz-potsdam.de/zentrum/technologietransfer-zentren/naturgefahren-und-gi-technologien/cegit/workshops/
 
