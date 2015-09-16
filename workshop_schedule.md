@@ -1,3 +1,14 @@
+Software Writing Skills for Your Research
+
+Suggested lessons:
+The Unix Shell: Malvika and Olav, 1 x 90min
+Version Control with Git and GitHub: Olav, 1 x 90min
+Programming with Python: Malvika and Olav, 4 x 90min 
+Automation and Make: Olav, 1 x 90min
+Using Databases either SQL or NoSQL: Olav, 1 x 90min
+From Open Access and H2020 to Open Data, Open Data Pilot, Data Management …
+Open Science
+
 Agenda Day 1, Wednesday, September 23
 
 time|Lesson|Instructors/Speakers
