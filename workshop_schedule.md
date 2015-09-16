@@ -1,6 +1,6 @@
-Software Writing Skills for Your Research
+#Software Writing Skills for Your Research
 
-Suggested lessons:
+###Suggested lessons:
 The Unix Shell: Malvika and Olav, 1 x 90min
 Version Control with Git and GitHub: Olav, 1 x 90min
 Programming with Python: Malvika and Olav, 4 x 90min 
