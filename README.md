@@ -46,11 +46,14 @@ English
 
 ##Instructors and Speakers
 
-###Olav Vahtras - Olav received a MS degree in engineering physics and PhD in quantum chemistry, both at Uppsala University. His work at the Minnesota Supercomputer Institute as a post-doc, and at Linköping University as a research associate has included research on molecular properties and electronic structure theory. Then he worked at PDC, the Center for High Performance Computing at the KTH Royal Institute of Technology, Stockholm, as an application specialist in the field of computational chemistry. Now he is a professor of theoretical chemistry at the KTH. His research involves development of quantum chemical methods for prediction of molecular properties and he teaches Python in a national program for computational sciences.
+###Olav Vahtras
+Olav received a MS degree in engineering physics and PhD in quantum chemistry, both at Uppsala University. His work at the Minnesota Supercomputer Institute as a post-doc, and at Linköping University as a research associate has included research on molecular properties and electronic structure theory. Then he worked at PDC, the Center for High Performance Computing at the KTH Royal Institute of Technology, Stockholm, as an application specialist in the field of computational chemistry. Now he is a professor of theoretical chemistry at the KTH. His research involves development of quantum chemical methods for prediction of molecular properties and he teaches Python in a national program for computational sciences.
 
-###Malvika Sharan - Malvika is a PhD student in the University of Würzburg, Germany, where she is carrying out projects that deal with characterization of RNA-binding proteins by means of bio-computational techniques and high-throughput sequence analysis. As a part of Doctoral Researchers' council of her graduate school, she tries to promote the usage of bioinformatics tools and programming skills among the experimental scientists in order to increase the efficient exchange of data. She has recently completed software-carpentry (SWC) instructor's course.
+###Malvika Sharan
+Malvika is a PhD student in the University of Würzburg, Germany, where she is carrying out projects that deal with characterization of RNA-binding proteins by means of bio-computational techniques and high-throughput sequence analysis. As a part of Doctoral Researchers' council of her graduate school, she tries to promote the usage of bioinformatics tools and programming skills among the experimental scientists in order to increase the efficient exchange of data. She has recently completed software-carpentry (SWC) instructor's course.
 
-###Krzysztof Siewicz - Krzysztof is a Polish legal counsel specialising in legal issues of information processing with a particular focus on copyright and other rights in intangibles in the context of Open Science. Krzysztof is a member of the Open Science Platform at the Interdisciplinary Centre for Mathematical and Computational Modelling at the University of Warsaw.
+###Krzysztof Siewicz
+Krzysztof is a Polish legal counsel specialising in legal issues of information processing with a particular focus on copyright and other rights in intangibles in the context of Open Science. Krzysztof is a member of the Open Science Platform at the Interdisciplinary Centre for Mathematical and Computational Modelling at the University of Warsaw.
 
 ##Organizers
 
