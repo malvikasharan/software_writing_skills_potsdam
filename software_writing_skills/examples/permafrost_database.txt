@@ -1,0 +1,148 @@
+The new database of the Global Terrestrial Network for
+Permafrost (GTN-P)
+B. K. Biskaborn1, J.-P. Lanckman2, H. Lantuit1,3, K. Elger4, D. A. Streletskiy5, W. L. Cable6, and V. E. Romanovsky6,7
+1 Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, Potsdam, Germany
+2 Arctic Portal, Akureyri, Iceland
+3 Institute for Earth and Environmental Sciences, University of Potsdam, Potsdam, Germany
+4 Helmholtz Centre Potsdam GFZ German Research Centre for Geosciences, Potsdam, Germany
+5 Department of Geography, The George Washington University, Washington, USA
+6 Geophysical Institute, University of Alaska Fairbanks, Fairbanks, USA
+7 Earth Cryosphere Institute, Tyumen, Russia
+Correspondence to: B. K. Biskaborn (boris.biskaborn@awi.de)
+Received: 15 February 2015 – Published in Earth Syst. Sci. Data Discuss.: 9 March 2015
+Revised: 20 July 2015 – Accepted: 21 July 2015 – Published: 14 September 2015
+
+Abstract. 
+The Global Terrestrial Network for Permafrost (GTN-P) provides the first dynamic database associated
+with the Thermal State of Permafrost (TSP) and the Circumpolar Active Layer Monitoring (CALM)
+programs, which extensively collect permafrost temperature and active layer thickness (ALT) data from Arctic,
+Antarctic and mountain permafrost regions. The purpose of GTN-P is to establish an early warning system for
+the consequences of climate change in permafrost regions and to provide standardized thermal permafrost data
+to global models. In this paper we introduce the GTN-P database and perform statistical analysis of the GTN-P
+metadata to identify and quantify the spatial gaps in the site distribution in relation to climate-effective environmental
+parameters. We describe the concept and structure of the data management system in regard to user
+operability, data transfer and data policy. We outline data sources and data processing including quality control
+strategies based on national correspondents. Assessment of the metadata and data quality reveals 63 % metadata
+completeness at active layer sites and 50 % metadata completeness for boreholes.
+Voronoi tessellation analysis on the spatial sample distribution of boreholes and active layer measurement
+sites quantifies the distribution inhomogeneity and provides a potential method to locate additional permafrost
+research sites by improving the representativeness of thermal monitoring across areas underlain by permafrost.
+The depth distribution of the boreholes reveals that 73 % are shallower than 25 m and 27 % are deeper, reaching a
+maximum of 1 km depth. Comparison of the GTN-P site distribution with permafrost zones, soil organic carbon
+contents and vegetation types exhibits different local to regional monitoring situations, which are illustrated with
+maps. Preferential slope orientation at the sites most likely causes a bias in the temperature monitoring and
+should be taken into account when using the data for global models. The distribution of GTN-P sites within
+zones of projected temperature change show a high representation of areas with smaller expected temperature
+rise but a lower number of sites within Arctic areas where climate models project extreme temperature increase.
+GTN-P metadata used in this paper are available at doi:10.1594/PANGAEA.842821.
+
+1 Introduction
+Warming of the cryosphere is likely to exceed the global
+average temperature increase (ACIA, 2004; Groisman and
+Soja, 2009; IPCC, 2013; Miller et al., 2010). Permafrost is
+defined as ground that remains frozen for at least two consecutive
+years (Van Everdingen, 1998). Ongoing permafrost
+warming (Romanovsky et al., 2010b) and near-surface thawing
+in permafrost regions associated with rising air temperatures
+are considered to reinforce warming of the atmosphere
+through the conversion of the large soil organic carbon pool
+in permafrost into greenhouse gases, a process termed “permafrost
+carbon feedback” (Grosse et al., 2011; Hugelius et
+al., 2013; Schaefer et al., 2014; Schuur et al., 2013). Worldwide
+monitoring of permafrost is essential to understand the
+impact of climate change on its thermal state and to assess
+the impact of permafrost thaw on the Earth climate system.
+Hence, international collaboration on data collection
+and analyses is a great challenge to overcome in this advancing
+scientific problem of global concern. Addressing the demands
+of data providers, data managers, and data users is imperative
+to enable the reliable creation of growing data sets.
+Moreover the willingness of scientists to share data and to
+participate in data management strategies are crucial requirements
+for scientific advancement (Papale et al., 2012).
+The monitoring of essential climate variables (ECVs)
+for permafrost (Fig. 1) has been delegated to GTN-P by
+the World Meteorological Organization (WMO) global observing
+community (www.wmo.int/pages/prog/gcos/). GTNP
+established permafrost temperature and active layer thickness
+(ALT) as ECVs related to two specific monitoring programs:
+(i) TSP (Thermal State of Permafrost) and (ii) CALM
+(Circumpolar Active Layer Monitoring) (Romanovsky et
+al., 2010b; Shiklomanov et al., 2012). Formerly known
+as GTNet-P, GTN-P was developed in 1999 by the International
+Permafrost Association (IPA) with active support
+by the Canadian Geological Survey (Brown et al., 2000;
+Burgess et al., 2000) under the Global Climate Observing
+System (GCOS) and the Global Terrestrial Observing Network
+(GTOS).
+The growing number of high-resolution measurements and
+annual collection of permafrost data clearly prompted the
+need for comprehensive management of the GTN-P, including
+its data management system. Several databases exist for
+particular regions in Europe (Juliussen et al., 2010; PERMOS,
+2013). While the permafrost data from the USA are
+archived with ACADIS (Advanced Cooperative Arctic Data
+and Information Service), which took over for the former
+CADIS (Cooperative Arctic Data and Information Service)
+as a repository for all data from National Science Foundation
+(NSF)-funded Arctic research. A good example of
+DOI-referenced data publication is Nordicana D, an online
+data report series of the Canadian Centre d’études Nordiques
+(CEN), including long-term time series of permafrost borehole
+temperatures (Allard et al., 2014).
+Figure 1. Framework within the Global Terrestrial Network for
+Permafrost defined by permafrost temperature and active layer
+thickness (ALT) data collected by the TSP and CALM programs,
+respectively.
+The GTN-P experienced substantial growth at the beginning
+of the 21st century. About 350 boreholes for temperature
+monitoring were established and a considerable number
+of active layer depth observations were collected during
+the 4th International Polar Year (IPY) from March 2007 to
+March 2009 (Brown, 2010). Efforts of the IPA and the GTNP
+at the end of the IPY resulted in reports on the thermal
+state of permafrost in high latitudes and high altitudes which
+were called the “IPA snapshot” (Christiansen et al., 2010;
+Romanovsky et al., 2010a; Smith et al., 2010; Vieira et al.,
+2010; Zhao et al., 2010). The Geological Survey of Canada
+(GSC) also invested great efforts in collecting and storing
+thermal permafrost data from the western Arctic for GTN-P.
+The TSP (Brown et al., 2010) and CALM (Shiklomanov et
+al., 2008) programs oversee the collection of permafrost temperature
+and active layer thickness data from Arctic, Antarctic
+and mountain permafrost regions. These programs provide
+the majority of the content to the GTN-P Database
+(Fig. 1). Both TSP and CALM provide an online data repository
+and are actively expanding observational networks.
+However, all existing permafrost repositories so far were
+conceived as rather static aggregations of data, and the modern
+permafrost community lacks a dynamic database with the
+capability to interlink the permafrost community and scientists
+working in other fields of research such as climate modelers,
+biologists or engineers.
+The long-term goal of GTN-P is to obtain a comprehensive
+view of the spatial structure, trends and variability in permafrost
+temperature as well as active layer thickness (GTNP,
+2012). The international network of permafrost observatories
+will provide an early warning system for the impacts
+of climate change in permafrost regions (Romanovsky et al.,
+2010b) and provide standardized permafrost data needed as
+input to global climate models.
+In this paper, we introduce the first dynamic database
+for parameters measured by the GTN-P. The new GTN-P
+Earth Syst. Sci. Data, 7, 245–259, 2015 www.earth-syst-sci-data.net/7/245/2015/
+B. K. Biskaborn et al.: The new database of the Global Terrestrial Network for Permafrost 247
+Database is a state-of-the-art tool for storing, processing and
+sharing parameters relevant to the permafrost ECV measured
+in the Arctic, Antarctic and mountain regions. It is hosted at
+the Arctic Portal in Akureyri (Iceland) and managed in close
+cooperation with the Alfred Wegener Institute, Helmholtz
+Centre for Polar and Marine Research (AWI), in Potsdam
+(Germany) and supported by the European Union Seventh
+Framework Programme project PAGE21.
+The specific objectives of this paper are (i) to describe the
+framework of the GTN-P Data Management System, (ii) to
+provide statistics on site distribution in the GTN-P by performing
+spatial analyses on the metadata, and (iii) to identify
+spatial gaps in the GTN-P site distribution and compare the
+results with relevant environmental geospatial data sets.

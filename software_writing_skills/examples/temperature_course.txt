@@ -1,0 +1,27 @@
+Perceived temperature in the course of climate change:
+an analysis of global heat index from 1979 to 2013
+D. Lee1 and T. Brenner2
+1 German Meteorological Service, Frankfurterstr. 135, 63067 Offenbach, Germany
+2 University of Marburg, Deutschhausstr. 10, 35032 Marburg, Germany
+Correspondence to: D. Lee (daniel.lee@dwd.de)
+Received: 27 December 2014 – Published in Earth Syst. Sci. Data Discuss.: 19 March 2015
+Revised: 21 July 2015 – Accepted: 22 July 2015 – Published: 5 August 2015
+
+Abstract.
+The increase in global mean temperatures resulting from climate change has wide reaching consequences
+for the earth’s ecosystems and other natural systems. Many studies have been devoted to evaluating the
+distribution and effects of these changes. We go a step further and propose the use of the heat index, a measure
+of the temperature as perceived by humans, to evaluate global changes. The heat index, which is computed from
+temperature and relative humidity, is more important than temperature for the health of humans and animals.
+Even in cases where the heat index does not reach dangerous levels from a health perspective, it has been shown
+to be an important factor in worker productivity and thus in economic productivity.
+We compute the heat index from dew point temperature and absolute temperature 2 m above ground from the
+ERA-Interim reanalysis data set for the years 1979–2013. The described data set provides global heat index aggregated
+to daily minima, means and maxima per day (doi:10.1594/PANGAEA.841057). This paper examines
+these data, as well as showing aggregations to monthly and yearly values. Furthermore, the data are spatially
+aggregated to the level of countries after being weighted by population density in order to facilitate the analysis
+of its impact on human health and productivity. The resulting data deliver insights into the spatiotemporal development
+of near-ground heat index during the course of the past three decades. It is shown that the impact of
+changing heat index is unevenly distributed through space and time, affecting some areas differently than others.
+The data can serve as a basis for evaluating and understanding the evolution of heat index in the course of climate
+change, as well as its impact on human health and productivity
