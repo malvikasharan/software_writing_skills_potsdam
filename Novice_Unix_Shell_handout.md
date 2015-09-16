@@ -76,7 +76,7 @@ The default cd changes the working directory to the users home directory.
 
     $ cd
 
-To go back to the last location of working directory we can either cd followed by the absolute path or type in cd -.
+To go back to the last location of working directory we can use cd followed by the absolute path or simply type in cd -.
 
     $ cd -
 
@@ -105,7 +105,7 @@ Run ls to see the created file/files.
 
     $ ls (this will show testfile1.txt, testfile2.txt and second_folder that you created in the current path)
 
-An asterisk * is a wild card, which in shell stands for everything. * can be used in the commands to execute an action of everything, in this context files and folders. We can use ls *.txt to list all the files that comprise of .txt file extension. 
+An asterisk * is a wild card, which in shell stands for all. * can be used in the commands to execute an action on all, in this context files and folders. We can use ls *.txt to list all the files that comprise of .txt file extension. 
 
 The file can be copied from one path to another by using cp command.
 
@@ -139,7 +139,7 @@ To delete an entire folder -r flag is used which stands for recursive.
 
     $ rm -r second_folder/
 
-rm * will remove all the files in the current working directory. There us no trash bin in unix shell, which means if you delete a file or a folder, it is deleted forever and can not be restored.
+rm * will remove all the files in the current working directory. There is no trash bin in unix shell, which means if you delete a file or a folder, it is deleted forever and can not be restored.
 
 These were the basic Unix shell commands. In the beginning you will have many questions about what does a command do, what are flags that can be used with a command etc. An important command man (stands for manual) can be used understand each commands in detail. For example, to get the documentation of ls command:
 
