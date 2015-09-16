@@ -9,7 +9,7 @@ Using Databases either SQL or NoSQL: Olav, 1 x 90min
 From Open Access and H2020 to Open Data, Open Data Pilot, Data Management …
 Open Science
 
-Agenda Day 1, Wednesday, September 23
+##Agenda Day 1, Wednesday, September 23
 
 time|Lesson|Instructors/Speakers
 --- | --- | ---
@@ -29,7 +29,7 @@ time|Lesson|Instructors/Speakers
 17:30 - 18:00|Wrap-up
 ---|---|---
 
-Agenda Day 2, Thursday, September 24
+##Agenda Day 2, Thursday, September 24
 
 time|Lesson|Instructors/Speakers
 --- | --- | ---
@@ -48,7 +48,7 @@ time|Lesson|Instructors/Speakers
 17:30 - 18:00|Wrap-up
 ---|---|---
 
-Agenda Day 3, Friday, September 25
+##Agenda Day 3, Friday, September 25
 
 time|Lesson|Instructors/Speakers
 --- | --- | ---
