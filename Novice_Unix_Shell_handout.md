@@ -11,7 +11,7 @@ We can open shell terminal to work with some basic commands.
 The first thing you will notice is a dollar sign. This is command prompt, issued by shell that suggests that the commands can be typed. A command followed by Enter key (or return key) allows shell to read and execute the command. We refer this as running a command (command + Enter/return key).
 
 Run command `date`, to get the date and time and press Enter key:
-        &ensp;`$ date`
+        > `$ date`
 
 It displays an output like this:
 Wed Sep 23 10:27:19 CEST 2015
