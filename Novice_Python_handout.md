@@ -21,14 +21,14 @@ Using python for mathematical calculations (combining lists, summing elments, in
 File handling:
 Create, read, write, open, close
 
-For-loop
+For-loop:
 Repeating a task
 Reading multiple files
 
 If, elif and else:
 Making choices and defining conditionals.
 
-Functions
+Functions:
 Define functions and work with them
 
 Import packages and work with them:
@@ -38,7 +38,7 @@ Display simple graphs.
 
 Basic error and exceptions: Try and Except
 
-Defensive programming:?
+Defensive programming: do we need this?
 
 Debug:
 http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
