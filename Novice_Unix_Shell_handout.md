@@ -1,7 +1,7 @@
-#Novice Unix Shell:
+Novice Unix Shell:
 ======
 
-##Introduction
+Introduction
 ------
 
 UNIX is a computer operating systems (OS) and shell provides an interface to execute commands and programs in Unix. 
@@ -10,7 +10,7 @@ We can open shell terminal to work with some basic commands.
 
 The first thing you will notice is a dollar sign. This is command prompt, issued by shell that suggests that the commands can be typed. A command followed by Enter key (or return key) allows shell to read and execute the command. We refer this as running a command (command + Enter/return key).
 
-Run command date, to get the date and time and press Enter key:
+Run command `date`, to get the date and time and press Enter key:
         `$ date`
 
 It displays an output like this:
@@ -21,7 +21,7 @@ A new prompt `$` is printed after a command is executed that tells us that it's 
 Run command whoami to get ID of the current user:
         `$ whoami`
     
-##Accessing files and directories:
+Accessing files and directories:
 ------
 
 The part of OS responsible for managing files and directories (folders) is called file system. It organizes our data into files and folders. 
@@ -66,7 +66,7 @@ The default `cd` changes the working directory to the users home directory.
 To go back to the last location of working directory we can either cd followed by the absolute path or type in `cd -`.
 	`$ cd -`
 
-##Creating and editing files and folders
+Creating and editing files and folders
 ------
 
 To create a new directory in the current path run `mkdir` followed by directory name.
@@ -88,11 +88,11 @@ Run `ls` to see the created file/files.
 
 An asterisk * is a wild card, which in shell stands for everything. * can be used in the commands to execute an action of everything, in this context files and folders. We can use `ls *.txt` to list all the files that comprise of .txt file extension. 
 
-The file can be copied from one path to another by using cp command.
+The file can be copied from one path to another by using `cp` command.
 	`$ cp testfile2.txt second_folder`
 
-All the .txt files can be copied into the second_folder by using *.
-	`$ cp *.txt new_folder`
+All the .txt files can be copied into the second_folder by using `*`.
+	`$ cp *.txt second_folder`
 
 The file can be renamed while copying to another location or folder:
 	`$ cp testfile2.txt second_folder/testfile3.txt`
@@ -117,7 +117,7 @@ To delete an entire folder `-r` flag is used which stands for recursive.
 These were the basic Unix shell commands. In the beginning you will have many questions about what does a command do, what are flags that can be used with a command etc. An important command `man` (stands for manual) can be used understand each commands in detail. For example, to get the documentation of `ls` command:
 	`$ ls man`
 
-To close the manual use `q`. Additionally many tools offer help via the parameter -h, -help or -help.
+To close the manual use `q`. Additionally many tools offer help via the parameter `-h`, `-help` or `-help`.
 	`$ ls -help`
 
 Few keyboard shortcuts that will come in handy:
@@ -127,26 +127,26 @@ Up and down key: to call the previously used commands
 	Ctrl+A: to move to the beginning of the file
 	Ctrl+e: to move to the end of the file
 	Ctrl+c: stop the command that is currently running
-        Ctrl+z: to send the currently running command to the background. The fg command is used to bring the background commands to foreground.
+        Ctrl+z: to send the currently running command to the background. The `fg` command is used to bring the background commands to foreground.
 
-##Handling files and folders
+Handling contents of the files and folders
 ------
 
 Earlier we learnt the use of editors to create and edit a file. In this next part we will see what more can be done for handling a file. For this, we will work on some example files to get a better understanding. I have saved some mock files in the folder 'software_writing_skills/examples'. if you are in the folder first_folder, go the folder software_writing_skills by typing:
         `$ cd ..`
 	`$ cd software_writing_skills/examples`
 
-`less` and `more` commands are used to view the file content without editing. Use `q` to quit the file viewing by less.
+`less` and `more` commands are used to view the file content without editing. Use `q` to quit the file viewing by `less`.
 	`$ less permafrost_database.txt`
 	`$ more permafrost_database.txt`
 
-Using `less` the file can be viewed by scrolling up and down, but by using more the first few lines of the files can be seen on the terminal.
+Using `less` the file can be viewed by scrolling up and down, but by using `more` the first few lines of the files can be seen on the terminal.
 
 To see the first or last few lines of the file, use `head` and `tail` commands respectively. 
         `$ head permafrost_database.txt`
 	`$ tail permafrost_database.txt`
 
-Flag `-n` with the commands `head` and `tail` is used to specify the number of lines that you want to view. For example, to view first 20 lines of the file either of the following commands can be used:
+Flag `-n` with the commands `head` and `tail` is used to specify the number of lines that you want to view. For example, to view first 10 lines of the file either of the following commands can be used:
 	`$ head -n 10 permafrost_database.txt`
 	`$ head -10 permafrost_database.txt`
 
@@ -170,7 +170,7 @@ Show characters from the beginning till the position 5:
 The flag `-d` specifies the field delimiter used in the input file (comma, tab) and flag `-fà specifies the field (divided by the delimiter) we want to see:
 	`$ cut -d',' -f1 permafrost_database.txt`
 
-These are different options of cut commands that can be used for reading files. However, the practical use of this command is in reading a file that contains table. A table comprise of values that are separated by special characters like comma `,` or tab `\t` that can be used to visualize certain column (also known as field). In the current folder we have a table geochemistry_germany_rivers.tab containing several columns that are seaparated by tab. By using `less` you can check the contents of the file. We can extract the values in the column 3:
+These are different options of `cut` commands that can be used for reading files. However, the practical use of this command is in reading a file that contains table. A table comprise of values that are separated by special characters like comma `,` or tab `\t` that can be used to visualize certain column (also known as field). In the current folder we have a table geochemistry_germany_rivers.tab containing several columns that are seaparated by tab. By using `less` you can check the contents of the file. We can extract the values in the column 3:
 	`$ cut -d$'\t' -f3 geochemistry_germany_rivers.tab`
 
 Regular expressions (for e.g.: specific strings) are searched in files by using command `grep`:
@@ -226,7 +226,7 @@ To view non-redundant contents of a file `uniq` command is used:
 By using the `-c` flag with `uniq`, the number of occurrence of each entry can be seen as the first field on ther terminal.
 	`$ uniq -c sorted_water_depth.txt`
 
-##Loops:
+Loops:
 ------
 
 Wildcards `*` and keyboard shortcuts are two ways to reduce typing (and typing mistakes). Another is to tell the shell to do something over and over again when we intend to carry out same action on 1000 files, which is impractical and tiring. Instead, we can use a loop to do some operation once for each thing in a list. Here's a simple example that displays the first three lines of each file in turn (write each of the following lines one by one):
@@ -237,13 +237,13 @@ Wildcards `*` and keyboard shortcuts are two ways to reduce typing (and typing m
 
 As you noticed that in the 'for-loop', each file is taken one by one as a variable filename. This variable will be referred with a `$` in the 'for-loop' ($filename). `>` in the command above shows that more commands can be written as the action is not finished.
 
-##Combining commands:
+Combining commands:
 ------
 
 In Unix we can connect several commands by pipe `|` to run several actions on standard input and standard output in a stepwise manner.
 	`$ cat water_depth.txt | head -5 | tail -5 | sort`
 
-##Shell Scripts
+Shell Scripts
 ------
 
 Shell is a powerful programming environment because it allows us to take the commands we repeat frequently and save them in files. The file extension for Shell script is '.sh' and using this file we can re-run all the operations again by using a single command. For historical reasons, a bunch of commands saved in a file is usually called a shell script, but make no mistake: these are actually small programs. The shell scripts are run by using sh (stands for Shell) or bash (Bourne again Shell).
