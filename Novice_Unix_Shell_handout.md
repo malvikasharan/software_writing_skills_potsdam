@@ -21,10 +21,10 @@ Run command whoami to get ID of the current user:
 
     $ whoami
 
-Accessing files and directories:
+Files and directories:
 ------
 
-The part of OS responsible for managing files and directories (folders) is called file system. It organizes our data into files and folders. 
+The part of OS responsible for managing files and directories (folders) is called file system. A filesystem is a logical subdivision of hard disk space that organizes our data into files and folders in hierarchical structure.
 
 To identify where we are in the system, run pwd command, which stands for “print working directory”:
 
