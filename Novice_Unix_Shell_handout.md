@@ -4,9 +4,9 @@ Novice Unix Shell:
 Introduction
 ------
 
-UNIX is a computer operating systems (OS) and shell provides an interface to execute commands and programs in Unix. 
+UNIX is a computer operating systems (OS) originally invented by Ken Thompson in 1969 and reimplemented in C during 1972-1974, making it the first source-portable OS. Unix is a multi-user and multi-tasking operating system. You can read more about Unix in Wikipedia, a free encyclopdia, at: http://www.wikipedia.org/wiki/Unix. Shell provides a command-line interpreters for interactive sessions (via terminal) to execute commands and programs in Unix. We will use shell to work with some useful [Unix-shell](https://en.wikipedia.org/wiki/Unix_shell) commands.
 
-We will use shell terminal to work with some basic commands. The first thing you will notice is a dollar sign. This is command prompt, issued by shell that suggests that the commands can be typed. A command followed by Enter key (or return key) allows shell to read and execute the command. We refer this as running a command (command + Enter/return key).
+The first thing you will notice in the shell terminal is a dollar sign. This is command prompt, issued by shell that suggests that the commands can be typed. A command followed by Enter key (or return key) allows shell to read and execute the command. We refer this as running a command (command + Enter/return key).
 
 Run command date, to get the date and time and press Enter key:
 
@@ -30,7 +30,7 @@ To identify where we are in the system, run pwd command, which stands for “pri
 
     $ pwd
 
-This displays the current working directory (path of the current location) which would look something like this:
+This displays the current working directory (path of the current location), which would look something like this:
 
     $ /Users/username…
 
@@ -139,7 +139,7 @@ To delete an entire folder -r flag is used which stands for recursive.
 
     $ rm -r second_folder/
 
-rm * will remove all the files in the current working directory. There is no trash bin in unix shell, which means if you delete a file or a folder, it is deleted forever and can not be restored.
+rm * will remove all the files in the current working directory. There is no trash bin in Unix shell, which means if you delete a file or a folder, it is deleted forever and cannot be restored.
 
 These were the basic Unix shell commands. In the beginning you will have many questions about what does a command do, what are flags that can be used with a command etc. An important command man (stands for manual) can be used understand each commands in detail. For example, to get the documentation of ls command:
 
@@ -219,7 +219,7 @@ The flag -d specifies the field delimiter used in the input file (comma, tab) an
 
     $ cut -d',' -f1 permafrost_database.txt
 
-These are different options of cut commands that can be used for reading files. However, the practical use of this command is in reading a file that contains table. A table comprise of values that are separated by special characters like comma , or tab \t that can be used to visualize certain column (also known as field). In the current folder we have a table geochemistry_germany_rivers.tab containing several columns that are seaparated by tab. By using less you can check the contents of the file. We can extract the values in the column 3:
+These are different options of cut commands that can be used for reading files. However, the practical use of this command is in reading a file that contains table. A table comprise of values that are separated by special characters like comma , or tab \t that can be used to visualize certain column (also known as field). In the current folder we have a table geochemistry_germany_rivers.tab containing several columns that are separated by tab. By using less you can check the contents of the file. We can extract the values in the column 3:
 
     $ cut -d$'\t' -f3 geochemistry_germany_rivers.tab
 
@@ -295,7 +295,7 @@ To view non-redundant contents of a file uniq command is used:
 
     $ uniq sorted_water_depth.txt
 
-By using the -c flag with uniq, the number of occurrence of each entry can be seen as the first field on ther terminal.
+By using the -c flag with uniq, the number of occurrence of each entry can be seen as the first field on the terminal.
 
     $ uniq -c sorted_water_depth.txt
 
