@@ -51,8 +51,10 @@ There are several Python tutorials available for beginners, therefore rather tha
 14. Display simple graphs
 15. Basic error and exceptions: try and except
 
-Editor that we will use in this course: [PyCharm](https://www.jetbrains.com/pycharm/)
-Debug:
+#Editor that we will use in this course: 
+[PyCharm](https://www.jetbrains.com/pycharm/) (Please download ans install)
+
+#Debug:
 http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
 
 
