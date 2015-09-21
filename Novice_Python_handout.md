@@ -48,7 +48,7 @@ There are several Python tutorials available for beginners, therefore rather tha
 11. Functions
 12. Import packages and work with them: os, sys, numpy, matplotlib
 13. Perform operations on arrays of data.
-14. Display simple graphs.
+14. Display simple graphs
 15. Basic error and exceptions: Try and Except
 
 Debug:
