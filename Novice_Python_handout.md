@@ -40,8 +40,8 @@ There are several Python tutorials available for beginners, therefore rather tha
 3. Variables: use them in python commands (slicing, splicing, overwriting)
 4. Operators and Expressions: plus, minus, multiply, power, divide, less/greater than, boolean and, or, not
 5. Data structures:
- 1. Sets and Lists: define and access list (min, max, index, sort, unique, append, reverse, combine, sum, intersect, string to list etc.)
- 2. Dictionaries
+ 1. Lists: define and access list (min, max, index, sort, unique, append, reverse, combine, sum, intersect, string to list etc.)
+ 2. Dictionaries: mapping values to arbitrary objects
 6. The if-statements: making choices and defining conditionals
 7. For-loop: repeated tasks like reading multiple files for same action
 8. Choosing editors to write Python programs
