@@ -43,7 +43,7 @@ There are several Python tutorials available for beginners, therefore rather tha
  1. Lists: define and access list (min, max, index, sort, unique, append, reverse, combine, sum, intersect, string to list etc.)
  2. Dictionaries: mapping values to arbitrary objects
 6. The if-statements: making choices and defining conditionals
-7. For-loop: repeated tasks like reading multiple files for same action
+7. The For-loop: repeated tasks like reading multiple files for same action
 8. Choosing editors to write Python programs
 9. Basic rules: comments, quote, indentation, newline, tabs
 10. File handling: create, read, write, open, close
