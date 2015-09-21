@@ -20,6 +20,7 @@ There are several Python tutorials available for beginners, therefore rather tha
  * [Geeting Started](https://www.python.org/about/gettingstarted/)
  * [Python Beginners Guide](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
  * [Execute Python](http://askpython.com/execute-python-scripts/)
+ * [Use Python](http://usingpython.com/programs/)
  * [Code sample and snippets for Beginners](https://wiki.python.org/moin/BeginnersGuide/Examples)
  * [Python programmers Guide](https://wiki.python.org/moin/BeginnersGuide/Programmers)
  * [MIT lecture notes](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2008/)
