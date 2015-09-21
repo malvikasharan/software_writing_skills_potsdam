@@ -55,7 +55,7 @@ There are several Python tutorials available for beginners, therefore rather tha
 15. Basic error and exceptions: try and except
 
 #Editor that we will use in this course: 
-[PyCharm](https://www.jetbrains.com/pycharm/) (Please download and install)
+[gedit](https://en.wikipedia.org/wiki/Gedit) (installed)
 
 #Debug:
 http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
