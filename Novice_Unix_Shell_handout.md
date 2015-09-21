@@ -1,5 +1,4 @@
-# Workshop: Software Writing Skills for Young Researchers
-### 2015.09.23 - 2015-09-25
+# Workshop: Software Writing Skills for Young Researchers (23.-25. September 2015)
 ### Malvika Sharan
 
 
