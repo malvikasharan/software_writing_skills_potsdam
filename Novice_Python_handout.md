@@ -56,6 +56,7 @@ There are several Python tutorials available for beginners, therefore rather tha
 
 #Editor that we will use in this course: 
 [gedit](https://en.wikipedia.org/wiki/Gedit) (installed)
+[PyCharm](https://www.jetbrains.com/pycharm/) (Alternative, not installed)
 
 #Debug:
 http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
