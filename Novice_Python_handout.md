@@ -48,7 +48,7 @@ There are several Python tutorials available for beginners, therefore rather tha
 9. Basic rules: comments, quote, indentation, newline, tabs
 10. File handling: create, read, write, open, close
 11. Reusing codes by Functions
-12.Packages: Import and work with them (os, sys, numpy, matplotlib)
+12. Packages: Import and work with them (os, sys, numpy, matplotlib)
  1. Perform operations on arrays of data.
  2. Display simple graphs by matplotlib
 13. Basic error and exceptions: try and except
