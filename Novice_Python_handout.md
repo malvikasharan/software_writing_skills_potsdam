@@ -8,7 +8,7 @@
 > together with its interpreted nature, make it an ideal language for scripting 
 > and rapid application development in many areas on most platforms. <cite>[A byte of Python](http://www.swaroopch.com/notes/python/)
 
-There are several Python tutorials available for beginners, therefore rather than creating a new tutorial we considered putting them together. 
+There are several Python tutorials available for beginners, therefore rather than creating a new tutorial we considered putting them together.
 
 ###Useful resources:
 
@@ -33,20 +33,23 @@ There are several Python tutorials available for beginners, therefore rather tha
  * [Learn Python in one video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
  * Many more... (literally millions of [YouTube videos](youtube.com))
 
-#The topics that we will cover here are:
+#Topics to be discussed
 
 1. How To - 'Hello World'
 2. Literal Constants: integers, floats and strings
 3. Variables: use them in python commands (slicing, splicing, overwriting)
-4. Sets and lists: define and access list (min, max, index, sort, unique, append, reverse, combine, sum, intersect, string to list etc.)
-5. File handling: create, read, write, open, close
-6. If, elif and else: making choices and defining conditionals
+4. Operators and Expressions: plus, minus, multiply, power, divide, less/greater than, boolean and, or, not
+5. Sets and lists: define and access list (min, max, index, sort, unique, append, reverse, combine, sum, intersect, string to list etc.)
+6. The if statements: making choices and defining conditionals
 7. For-loop: repeated tasks like reading multiple files for same action
-8. Functions
-9. Import packages and work with them: os, sys, numpy, matplotlib
-10. Perform operations on arrays of data.
-11. Display simple graphs.
-12. Basic error and exceptions: Try and Except
+8. Choosing editors to write Python programs
+9. Basic rules: comments, quote, indentation, newline, tabs
+10. File handling: create, read, write, open, close
+11. Functions
+12. Import packages and work with them: os, sys, numpy, matplotlib
+13. Perform operations on arrays of data.
+14. Display simple graphs.
+15. Basic error and exceptions: Try and Except
 
 Debug:
 http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
