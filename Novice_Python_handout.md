@@ -47,7 +47,7 @@ There are several Python tutorials available for beginners, therefore rather tha
 8. Choosing editors to write Python programs
 9. Basic rules: comments, quote, indentation, newline, tabs
 10. File handling: create, read, write, open, close
-11. Functions
+11. Reusing codes by Functions
 12. Import packages and work with them: os, sys, numpy, matplotlib
 13. Perform operations on arrays of data.
 14. Display simple graphs
