@@ -31,7 +31,7 @@ There are several Python tutorials available for beginners, therefore rather tha
 * Video tutorials:
  * [YouTube DRAPS TV](https://www.youtube.com/channel/UCea5cMUa9xNU0kUtbRcTkqA)
  * [Learn Python in one video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
- * Many more... (literally millions of [YouTube videos](youtube.com))
+ * Many more... (literally millions of [YouTube videos](https://www.youtube.com/results?search_query=python))
 
 #Topics to be discussed
 
