@@ -1,4 +1,7 @@
-#Python
+# Workshop: Software Writing Skills for Young Researchers (23.-25. September 2015)
+% Document created by Malvika Sharan
+
+#Python for Novice
 
 ##Introduction
 
