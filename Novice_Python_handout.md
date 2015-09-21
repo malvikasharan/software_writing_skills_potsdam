@@ -2,7 +2,7 @@
 
 ##Introduction
 
-"(Python)[https://www.python.org/] is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."-(A byte of Python)[http://www.swaroopch.com/notes/python/]
+"[Python](https://www.python.org/) is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."-(A byte of Python)[http://www.swaroopch.com/notes/python/]
 
 There are several Python tutorials available for beginners, therefore rather than creating a new tutorial we considered putting them together.
 
