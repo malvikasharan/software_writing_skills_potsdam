@@ -10,7 +10,7 @@ Introduction
 
 UNIX is a computer operating systems (OS) originally invented by Ken Thompson in 1969 and reimplemented in C during 1972-1974, making it the first source-portable OS. Unix is a multi-user and multi-tasking operating system. You can read more about Unix in Wikipedia, a free encyclopdia, at: http://www.wikipedia.org/wiki/Unix. Shell provides a command-line interpreters for interactive sessions (via terminal) to execute commands and programs in Unix. We will use shell to work with some useful [Unix-shell](https://en.wikipedia.org/wiki/Unix_shell) commands.
 
-The first thing you will notice in the shell terminal is a dollar sign. This is command prompt, issued by shell that suggests that the commands can be typed. A command followed by Enter key (or return key) allows shell to read and execute the command. We refer this as running a command (command + Enter/return key).
+Open your Terminal program (Hint: It could be called GNOME Terminal, Konsole, or xterm). The first thing you will notice in the shell terminal is a dollar sign. This is command prompt, issued by shell that suggests that the commands can be typed. A command followed by Enter key (or return key) allows shell to read and execute the command. We refer this as running a command (command + Enter/return key).
 
 Run command date, to get the date and time and press Enter key:
 
