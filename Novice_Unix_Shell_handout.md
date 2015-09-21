@@ -1,5 +1,5 @@
 # Workshop: Software Writing Skills for Young Researchers (23.-25. September 2015)
-### Malvika Sharan
+% Document created by Malvika Sharan
 
 
 Novice Unix Shell:
