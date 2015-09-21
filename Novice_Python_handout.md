@@ -48,10 +48,10 @@ There are several Python tutorials available for beginners, therefore rather tha
 9. Basic rules: comments, quote, indentation, newline, tabs
 10. File handling: create, read, write, open, close
 11. Reusing codes by Functions
-12. Import packages and work with them: os, sys, numpy, matplotlib
-13. Perform operations on arrays of data.
-14. Display simple graphs
-15. Basic error and exceptions: try and except
+12.Packages: Import and work with them (os, sys, numpy, matplotlib)
+ 1. Perform operations on arrays of data.
+ 2. Display simple graphs by matplotlib
+13. Basic error and exceptions: try and except
 
 Debug:
 http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
