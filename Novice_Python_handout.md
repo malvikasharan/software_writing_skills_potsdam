@@ -39,8 +39,8 @@ There are several Python tutorials available for beginners, therefore rather tha
 2. Literal Constants: integers, floats and strings
 3. Variables: use them in python commands (slicing, splicing, overwriting)
 4. Operators and Expressions: plus, minus, multiply, power, divide, less/greater than, boolean and, or, not
-5. Sets and lists: define and access list (min, max, index, sort, unique, append, reverse, combine, sum, intersect, string to list etc.)
-6. The if statements: making choices and defining conditionals
+5. Sets and Lists: define and access list (min, max, index, sort, unique, append, reverse, combine, sum, intersect, string to list etc.)
+6. The if-statements: making choices and defining conditionals
 7. For-loop: repeated tasks like reading multiple files for same action
 8. Choosing editors to write Python programs
 9. Basic rules: comments, quote, indentation, newline, tabs
@@ -49,7 +49,7 @@ There are several Python tutorials available for beginners, therefore rather tha
 12. Import packages and work with them: os, sys, numpy, matplotlib
 13. Perform operations on arrays of data.
 14. Display simple graphs
-15. Basic error and exceptions: Try and Except
+15. Basic error and exceptions: try and except
 
 Debug:
 http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
