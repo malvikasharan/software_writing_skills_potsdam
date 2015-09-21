@@ -25,6 +25,10 @@ There are several Python tutorials available for beginners, therefore rather tha
  * [Python programmers Guide](https://wiki.python.org/moin/BeginnersGuide/Programmers)
  * [MIT lecture notes](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2008/)
  * [MIT: Introduction computer Science](https://www.edx.org/course/mit/6-00x/introduction-computer-science/586)
+
+* Interactive learning:
+ * [Codecademy](https://www.codecademy.com/tracks/python)
+ * [After Hours Programming](http://www.afterhoursprogramming.com/tutorial/Python/Overview/)
  * [More suggestions on [Quora](https://www.quora.com)](https://www.quora.com/Which-online-Python-course-is-the-best)
 
 * Books:
