@@ -8,7 +8,7 @@
 > together with its interpreted nature, make it an ideal language for scripting 
 > and rapid application development in many areas on most platforms. <cite>[A byte of Python](http://www.swaroopch.com/notes/python/)
 
-There are several Python tutorials available for beginners, therefore rather than creating a new tutorial we considered putting them together.
+There are several Python tutorials available for beginners, therefore rather than creating a new tutorial we considered putting them together. 
 
 ###Useful resources:
 
@@ -31,47 +31,22 @@ There are several Python tutorials available for beginners, therefore rather tha
 * Video tutorials:
  * [YouTube DRAPS TV](https://www.youtube.com/channel/UCea5cMUa9xNU0kUtbRcTkqA)
  * [Learn Python in one video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
- * Many more... (literally millions of videos)
+ * Many more... (literally millions of [YouTube videos](youtube.com))
 
 #The topics that we will cover here are:
 
-1. How to 'Hello World'?
-2. What is variable? integer, float, string etc?
-
-Show python basics on the terminal like print (string, number, combinations, tab, newlines).
-
-Variables/tuples:
-Define variables and use them in python commands. (slicing, splicing)
-Overwriting a tuple.
-
-Sets and lists:
-Define set, empty list and list with items. How to access list (min, max, index, sort, unique, append, reverse,  etc.)?
-Create list from string.
-
-Mathematical calculations:
-Using python for mathematical calculations (combining lists, summing elments, intersection).
-
-File handling:
-Create, read, write, open, close
-
-For-loop:
-Repeating a task
-Reading multiple files
-
-If, elif and else:
-Making choices and defining conditionals.
-
-Functions:
-Define functions and work with them
-
-Import packages and work with them:
-Import python packages (os, sys, numpy, matplotlib).
-Perform operations on arrays of data.
-Display simple graphs.
-
-Basic error and exceptions: Try and Except
-
-Defensive programming: do we need this?
+1. How To - 'Hello World'
+2. Literal Constants: integers, floats and strings
+3. Variables: use them in python commands (slicing, splicing, overwriting)
+4. Sets and lists: define and access list (min, max, index, sort, unique, append, reverse, combine, sum, intersect, string to list etc.)
+5. File handling: create, read, write, open, close
+6. If, elif and else: making choices and defining conditionals
+7. For-loop: repeated tasks like reading multiple files for same action
+8. Functions
+9. Import packages and work with them: os, sys, numpy, matplotlib
+10. Perform operations on arrays of data.
+11. Display simple graphs.
+12. Basic error and exceptions: Try and Except
 
 Debug:
 http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
