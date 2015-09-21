@@ -2,7 +2,11 @@
 
 ##Introduction
 
-"[Python](https://www.python.org/) is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."-[A byte of Python](http://www.swaroopch.com/notes/python/)
+> [Python](https://www.python.org/) is an easy to learn, powerful programming language. 
+> It has efficient high-level data structures and a simple but effective approach to 
+> object-oriented programming. Python’s elegant syntax and dynamic typing, 
+> together with its interpreted nature, make it an ideal language for scripting 
+> and rapid application development in many areas on most platforms. <cite>[A byte of Python](http://www.swaroopch.com/notes/python/)
 
 There are several Python tutorials available for beginners, therefore rather than creating a new tutorial we considered putting them together.
 
@@ -29,10 +33,10 @@ There are several Python tutorials available for beginners, therefore rather tha
  * [Learn Python in one video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
  * Many more... (literally millions of videos)
 
-The topics that we will cover here are:
+#The topics that we will cover here are:
 
-How to 'Hello World'?
-What is integer, float, string etc?
+1. How to 'Hello World'?
+2. What is variable? integer, float, string etc?
 
 Show python basics on the terminal like print (string, number, combinations, tab, newlines).
 
