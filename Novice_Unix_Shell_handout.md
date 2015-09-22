@@ -8,7 +8,9 @@ Novice Unix Shell:
 Introduction
 ------
 
-UNIX is a computer operating systems (OS) originally invented by Ken Thompson in 1969 and reimplemented in C during 1972-1974, making it the first source-portable OS. Unix is a multi-user and multi-tasking operating system. You can read more about Unix in Wikipedia, a free encyclopdia, at: http://www.wikipedia.org/wiki/Unix. Shell provides a command-line interpreters for interactive sessions (via terminal) to execute commands and programs in Unix. We will use shell to work with some useful [Unix-shell](https://en.wikipedia.org/wiki/Unix_shell) commands.
+The computer programs that allocate the system resources and coordinate all the details of the computer's internals is called the operating system or kernel. It interacts with hardware and most of the tasks like memory management, tash scheduling and file management. UNIX is a computer operating systems (OS) originally invented by Ken Thompson in 1969 and reimplemented in C during 1972-1974, making it the first source-portable OS. Unix is a multi-user and multi-tasking operating system. You can read more about Unix in Wikipedia, a free encyclopdia, at: http://www.wikipedia.org/wiki/Unix.  
+
+Shell provides a command-line interpreters for interactive sessions (via terminal) to execute commands and programs in Unix. We will use shell to work with some useful [Unix-shell](https://en.wikipedia.org/wiki/Unix_shell) commands.
 
 The first thing you will notice in the shell terminal is a dollar sign. This is command prompt, issued by shell that suggests that the commands can be typed. A command followed by Enter key (or return key) allows shell to read and execute the command. We refer this as running a command (command + Enter/return key).
 
@@ -28,7 +30,7 @@ Run command whoami to get ID of the current user:
 Files and directories:
 ------
 
-The part of OS responsible for managing files and directories (folders) is called file system. A filesystem is a logical subdivision of hard disk space that organizes our data into files and folders in hierarchical structure.
+The part of OS responsible for managing files and directories (folders) is called file system. A filesystem is a logical subdivision of hard disk space that organizes our data into files and folders in hierarchical structure. All data in UNIX is organized into files and all files are organized into directories. These directories are organized into a tree-like structure called the filesystem. The topmost node of tree is called root which encloses all the other files.
 
 To identify where we are in the system, run pwd command, which stands for “print working directory”:
 
@@ -332,3 +334,7 @@ Shell Scripts
 Shell is a powerful programming environment because it allows us to take the commands we repeat frequently and save them in files. The file extension for Shell script is '.sh' and using this file we can re-run all the operations again by using a single command. For historical reasons, a bunch of commands saved in a file is usually called a shell script, but make no mistake: these are actually small programs. The shell scripts are run by using sh (stands for Shell) or bash (Bourne again Shell).
 
     $ bash script.sh
+    
+##Useful resources
+* [Tutorial Point](http://www.tutorialspoint.com/unix/unix-getting-started.htm)
+* [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
