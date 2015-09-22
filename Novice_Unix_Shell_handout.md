@@ -226,6 +226,7 @@ The flag -d specifies the field delimiter used in the input file (comma, tab) an
 These are different options of cut commands that can be used for reading files. However, the practical use of this command is in reading a file that contains table. A table comprise of values that are separated by special characters like comma , or tab \t that can be used to visualize certain column (also known as field). In the current folder we have a table geochemistry_germany_rivers.tab containing several columns that are separated by tab. By using less you can check the contents of the file. We can extract the values in the column 3:
 
     $ cut -d$'\t' -f3 geochemistry_germany_rivers.tab
+    $ cut -f3 geochemistry_germany_rivers.tab
 
 Regular expressions (for e.g.: specific strings) are searched in files by using command grep:
 
@@ -233,11 +234,11 @@ Regular expressions (for e.g.: specific strings) are searched in files by using 
 
 Count the occurrence of the string by using the flag -c:
 
-    $ grep permafrost -c permafrost_database.txt
+    $ grep -c permafrost permafrost_database.txt
 
 To make the search case insensitive -i flag can be used:
 
-    $ grep permafrost -c -i permafrost_database.txt
+    $ grep -c -i permafrost permafrost_database.txt
 
 We can extract the entire content of the file on the terminal by using cat.
 
@@ -273,11 +274,11 @@ The > symbol directs the given content to the destination file, however this ove
 
 In another example we will collect few columns (column 3 and 5) from the file geochemistry_germany_rivers.tab
 
-    $ cut -d$'\t' -f3,5 geochemistry_germany_rivers.tab > water_depth.txt
+    $ cut -f3,5 geochemistry_germany_rivers.tab > water_depth.txt
 
 To remove empty lines from the file use following:
 
-    $ awk 'NF > 0' water_depth.txt > new_water_depth.txt
+    $ grep -v '^$' water_depth.txt > new_water_depth.txt
 
 To count the total number of lines wc -l command is used. For example, this command can be used for counting total number of lines in file:
 
