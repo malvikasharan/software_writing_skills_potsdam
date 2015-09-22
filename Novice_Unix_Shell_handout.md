@@ -282,10 +282,10 @@ To remove empty lines from the file use following:
 
     $ grep -v '^$' water_depth.txt > new_water_depth.txt
 
-To count the total number of lines wc -l command is used. For example, this command can be used for counting total number of lines in file:
+To count the total number of words wc and total lines wc -l commands are used. For example, this command can be used for counting total number of lines in file:
 
+    $ wc water_depth.txt
     $ wc -l water_depth.txt
-
     $ wc -l new_water_depth.txt
 
 In order to sort the content of a file the command sort is used. By default the sorting takes placed alphabetically but several flags can be used to specify the type of sorting, for example, sort -n numerical sorting, sort -r reverse sorting etc.
