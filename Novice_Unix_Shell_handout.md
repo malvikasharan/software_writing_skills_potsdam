@@ -44,9 +44,9 @@ By default you are in the folder 'software_writing_skills'. Check what's in the 
 
     $ ls
 
-This displays all the files and folders in the current working directory, which are examples, shell_introduction.txt and shell_material.txt. By using the flag -F, we can get a more comprehensible output of the command ls, which adds a trailing '/' to the name of directories (examples/).
+This displays all the files and folders in the current working directory, which are examples, shell_introduction.txt and shell_material.txt. By using the flag -l, we can get a more comprehensible output of the command ls, which adds a trailing '/' to the name of directories (examples/).
 
-    $ ls -F
+    $ ls -l
 
 There are several flags that can be used with ls. For example:
 
