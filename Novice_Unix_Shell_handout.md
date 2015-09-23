@@ -8,7 +8,9 @@ Novice Unix Shell:
 Introduction
 ------
 
-UNIX is a computer operating systems (OS) originally invented by Ken Thompson in 1969 and reimplemented in C during 1972-1974, making it the first source-portable OS. Unix is a multi-user and multi-tasking operating system. You can read more about Unix in Wikipedia, a free encyclopdia, at: http://www.wikipedia.org/wiki/Unix. Shell provides a command-line interpreters for interactive sessions (via terminal) to execute commands and programs in Unix. We will use shell to work with some useful [Unix-shell](https://en.wikipedia.org/wiki/Unix_shell) commands.
+The computer programs that allocate the system resources and coordinate all the details of the computer's internals is called the operating system or kernel. It interacts with hardware and most of the tasks like memory management, tash scheduling and file management. UNIX is a computer operating systems (OS) originally invented by Ken Thompson in 1969 and reimplemented in C during 1972-1974, making it the first source-portable OS. Unix is a multi-user and multi-tasking operating system. You can read more about Unix in Wikipedia, a free encyclopdia, at: http://www.wikipedia.org/wiki/Unix.  
+
+Shell provides a command-line interpreters for interactive sessions (via terminal) to execute commands and programs in Unix. We will use shell to work with some useful [Unix-shell](https://en.wikipedia.org/wiki/Unix_shell) commands.
 
 The first thing you will notice in the shell terminal is a dollar sign. This is command prompt, issued by shell that suggests that the commands can be typed. A command followed by Enter key (or return key) allows shell to read and execute the command. We refer this as running a command (command + Enter/return key).
 
@@ -28,7 +30,7 @@ Run command whoami to get ID of the current user:
 Files and directories:
 ------
 
-The part of OS responsible for managing files and directories (folders) is called file system. A filesystem is a logical subdivision of hard disk space that organizes our data into files and folders in hierarchical structure.
+The part of OS responsible for managing files and directories (folders) is called file system. A filesystem is a logical subdivision of hard disk space that organizes our data into files and folders in hierarchical structure. All data in UNIX is organized into files and all files are organized into directories. These directories are organized into a tree-like structure called the filesystem. The topmost node of tree is called root which encloses all the other files.
 
 To identify where we are in the system, run pwd command, which stands for “print working directory”:
 
@@ -42,9 +44,9 @@ By default you are in the folder 'software_writing_skills'. Check what's in the 
 
     $ ls
 
-This displays all the files and folders in the current working directory, which are examples, shell_introduction.txt and shell_material.txt. By using the flag -F, we can get a more comprehensible output of the command ls, which adds a trailing '/' to the name of directories (examples/).
+This displays all the files and folders in the current working directory, which are examples, shell_introduction.txt and shell_material.txt. By using the flag -l, we can get a more comprehensible output of the command ls.
 
-    $ ls -F
+    $ ls -l
 
 There are several flags that can be used with ls. For example:
 
@@ -62,17 +64,27 @@ Additionally, multiple flags can be used in the same command:
 
     $ ls -R -s
 
-A file or folder can be addressed with an absolute or a relative path. One can access the files in the current folder directly by using a relative path, which refers to the folder relative to the current path. To access files in different folder the absolute path should be provided which refers to the whole path (starts with /). For example, using pwd command the absolute path of the current working directory is displayed. 
+A file or folder can be addressed with an absolute or a relative path. One can access the files in the current folder directly by using a relative path, which refers to the folder relative to the current path. To access files in different folder the absolute path should be provided which refers to the whole path (starts with /). For example, using pwd command the absolute path of the current working directory is displayed.
 
 By giving the name of the folder (in the current working directory or the full path of a folder somewhere else) one can see the contents of the folder:
 
+Try this and hit tab.
+    
+    $ ls /root/Downloads/
+
+This is where you downloaded the example folders.
+
+We can use cd followed by a directory name to change our working directory. cd stands for “change directory”, which is a bit misleading: the command doesn't change the directory; it changes the shell's idea of what directory we are in. We can change our current directory by moving to /root/Downloads.
+
+    $ cd /root/Downloads
+
+Since all our examples are in the following specified directory, let's move there by cd and check what do you have there.
+
+    $ software_writing_skills_potsdam-master/software_writing_skill/examples
+    
     $ ls examples
 
-We can use cd followed by a directory name to change our working directory. cd stands for “change directory”, which is a bit misleading: the command doesn't change the directory; it changes the shell's idea of what directory we are in. We can change our current directory by moving to 'examples' folder.
-
-    $ cd examples
-
-We can check the changed working directory by pwd and we can run ls -F to see the files in the current path.
+We can check the changed working directory by pwd and we can run ls -l to see the files in the current path.
 
 To go down to the directory enclosing the current files and folders we can use cd .., where .. refers to a special directory, meaning “the directory containing this one”, or more concisely, the parent of the current directory. If we run pwd after running cd .. we're back in the last location.
 
@@ -280,10 +292,10 @@ To remove empty lines from the file use following:
 
     $ grep -v '^$' water_depth.txt > new_water_depth.txt
 
-To count the total number of lines wc -l command is used. For example, this command can be used for counting total number of lines in file:
+To count the total number of words wc and total lines wc -l commands are used. For example, this command can be used for counting total number of lines in file:
 
+    $ wc water_depth.txt
     $ wc -l water_depth.txt
-
     $ wc -l new_water_depth.txt
 
 In order to sort the content of a file the command sort is used. By default the sorting takes placed alphabetically but several flags can be used to specify the type of sorting, for example, sort -n numerical sorting, sort -r reverse sorting etc.
@@ -332,3 +344,7 @@ Shell Scripts
 Shell is a powerful programming environment because it allows us to take the commands we repeat frequently and save them in files. The file extension for Shell script is '.sh' and using this file we can re-run all the operations again by using a single command. For historical reasons, a bunch of commands saved in a file is usually called a shell script, but make no mistake: these are actually small programs. The shell scripts are run by using sh (stands for Shell) or bash (Bourne again Shell).
 
     $ bash script.sh
+    
+##Useful resources
+* [Tutorial Point](http://www.tutorialspoint.com/unix/unix-getting-started.htm)
+* [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
