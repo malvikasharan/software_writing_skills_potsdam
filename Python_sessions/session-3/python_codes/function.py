@@ -1,0 +1,21 @@
+def  my_function():
+    print "Do something"
+my_function()
+
+def say_hi():
+    print "hi!"
+say_hi()
+
+def say_hi(name):
+    comment = "Hi %s!" % name
+    return comment
+
+name = 'Greg'
+print say_hi(name)
+
+name2 = 'Wilson'
+new_comment = say_hi(name2)
+print "Use %s here" % new_comment
+
+
+
