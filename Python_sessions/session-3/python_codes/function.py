@@ -1,11 +1,15 @@
+##PART-1###
+
 def  my_function():
     print "Do something"
 my_function()
 
+##PART-2###
 def say_hi():
     print "hi!"
 say_hi()
 
+##PART-3###
 def say_hi(name):
     comment = "Hi %s!" % name
     return comment
