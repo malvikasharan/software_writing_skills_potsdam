@@ -4,7 +4,7 @@ response1 = "Thats a lovely name! "
 input(hello+question1)
 print response1
 
-answer_type = "Please answer in 'yes' of 'no'. "
+answer_type = "Please answer in 'yes' or 'no'. "
 question2 = "Can I help you? "
 response2 = "I am a computer, not a human. "
 input(question2+answer_type)
