@@ -18,7 +18,7 @@ The first thing you will notice in the shell terminal is a dollar sign. This is 
 
 Run command date, to get the date and time and press Enter key:
 
-$ date
+    $ date
 
 It displays an output like this:
 Wed Sep 23 10:27:19 CEST 2015
