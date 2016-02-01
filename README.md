@@ -1,6 +1,6 @@
 #Software Writing Skills for Your Research - Workshop for Novices
 
-Participated as trainer for Python and Shell in the software writing skill workshop by FOSTER. Helmholtz Centre Potsdam - GFZ, Germany. The video from the event can be found here: http://tinyurl.com/z3fjf4b
+Participated as trainer for Python and Shell in the software writing skill workshop by FOSTER. Helmholtz Centre Potsdam - GFZ, Germany. The videos from the event can be found here: http://tinyurl.com/z3fjf4b
 
 The following contents are taken from the GFZ website: http://www.gfz-potsdam.de/zentrum/technologietransfer-zentren/naturgefahren-und-gi-technologien/cegit/workshops/
 
