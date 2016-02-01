@@ -1,6 +1,8 @@
 #Software Writing Skills for Your Research - Workshop for Novices
 
-Contents from the GFZ website: http://www.gfz-potsdam.de/zentrum/technologietransfer-zentren/naturgefahren-und-gi-technologien/cegit/workshops/
+Participated as trainer for Python and Shell in the software writing skill workshop by FOSTER. Helmholtz Centre Potsdam - GFZ, Germany. The video from the event can be found here: http://tinyurl.com/z3fjf4b
+
+The following contents are taken from the GFZ website: http://www.gfz-potsdam.de/zentrum/technologietransfer-zentren/naturgefahren-und-gi-technologien/cegit/workshops/
 
 The workshop addresses the passing of software writing skills to young scientists, the next generation of researchers in the Earth, planetary and space sciences. The writing of code in science following minimal but vital software engineering rules, best practices and processes shall be imparted as fundamental skills. So the workshops addresses young scientist with no or little experience in writing software for their research work. The lessons will cover:
 
