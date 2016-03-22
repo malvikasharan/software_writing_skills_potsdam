@@ -17,7 +17,7 @@ There are several Python tutorials available for beginners, therefore rather tha
 
 * Web links:
  * [Software Carpentry: Python lessons for novice](http://swcarpentry.github.io/python-novice-inflammation/)
- * [Geeting Started](https://www.python.org/about/gettingstarted/)
+ * [Getting Started](https://www.python.org/about/gettingstarted/)
  * [Python Beginners Guide](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
  * [Execute Python](http://askpython.com/execute-python-scripts/)
  * [Use Python](http://usingpython.com/programs/)
