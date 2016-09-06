@@ -10,7 +10,7 @@ Novice Unix Shell:
 Introduction
 ------
 
-The computer programs that allocate the system resources and coordinate all the details of the computer's internals is called the operating system or kernel. It interacts with hardware and most of the tasks like memory management, tash scheduling and file management. UNIX is a computer operating systems (OS) originally invented by Ken Thompson in 1969 and reimplemented in C during 1972-1974, making it the first source-portable OS. Unix is a multi-user and multi-tasking operating system. You can read more about Unix in Wikipedia, a free encyclopdia, at: http://www.wikipedia.org/wiki/Unix.  
+The computer programs that allocate the system resources and coordinate all the details of the computer's internals is called the operating system or kernel. It interacts with hardware and most of the tasks like memory management, task scheduling and file management. UNIX is a computer operating systems (OS) originally invented by Ken Thompson in 1969 and reimplemented in C during 1972-1974, making it the first source-portable OS. Unix is a multi-user and multi-tasking operating system. You can read more about Unix [here](http://www.wikipedia.org/wiki/Unix).  
 
 Shell provides a command-line interpreters for interactive sessions (via terminal) to execute commands and programs in Unix. We will use shell to work with some useful [Unix-shell](https://en.wikipedia.org/wiki/Unix_shell) commands.
 
